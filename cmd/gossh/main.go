@@ -25,7 +25,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/windvalley/gossh/internal/cmd"
+	"github.com/fuguohong1024/go-ssh/internal/cmd"
 )
 
 func main() {

@@ -28,8 +28,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/windvalley/gossh/internal/pkg/aes"
-	"github.com/windvalley/gossh/pkg/util"
+	"github.com/fuguohong1024/go-ssh/internal/pkg/aes"
+	"github.com/fuguohong1024/go-ssh/pkg/util"
 )
 
 var deOutputFile string

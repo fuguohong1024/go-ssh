@@ -30,8 +30,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/windvalley/gossh/internal/pkg/aes"
-	"github.com/windvalley/gossh/pkg/util"
+	"github.com/fuguohong1024/go-ssh/internal/pkg/aes"
+	"github.com/fuguohong1024/go-ssh/pkg/util"
 )
 
 var outputFile string
@@ -98,7 +98,7 @@ func handleOutput(content, originalFile, newFile string) {
 	var err error
 
 	switch {
-	case newFile != "" && newFile == "-":
+	case newFile == "-":
 		fmt.Println(content)
 	case newFile != "":
 		err = writeContentToNewFile(newFile, content)

@@ -28,10 +28,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/windvalley/gossh/internal/cmd/vault"
-	"github.com/windvalley/gossh/internal/pkg/configflags"
-	"github.com/windvalley/gossh/pkg/log"
-	"github.com/windvalley/gossh/pkg/util"
+	"github.com/fuguohong1024/go-ssh/internal/cmd/vault"
+	"github.com/fuguohong1024/go-ssh/internal/pkg/configflags"
+	"github.com/fuguohong1024/go-ssh/pkg/log"
+	"github.com/fuguohong1024/go-ssh/pkg/util"
 )
 
 const cfgFileFlag = "config"

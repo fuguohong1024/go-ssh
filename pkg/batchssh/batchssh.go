@@ -39,8 +39,8 @@ import (
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/windvalley/gossh/pkg/log"
-	"github.com/windvalley/gossh/pkg/util"
+	"github.com/fuguohong1024/go-ssh/pkg/log"
+	"github.com/fuguohong1024/go-ssh/pkg/util"
 )
 
 const (

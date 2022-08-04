@@ -38,13 +38,13 @@ import (
 	"golang.org/x/crypto/ssh/agent"
 	"golang.org/x/term"
 
-	"github.com/windvalley/gossh/internal/cmd/vault"
-	"github.com/windvalley/gossh/internal/pkg/aes"
-	"github.com/windvalley/gossh/internal/pkg/configflags"
-	"github.com/windvalley/gossh/pkg/batchssh"
-	"github.com/windvalley/gossh/pkg/inventory"
-	"github.com/windvalley/gossh/pkg/log"
-	"github.com/windvalley/gossh/pkg/util"
+	"github.com/fuguohong1024/go-ssh/internal/cmd/vault"
+	"github.com/fuguohong1024/go-ssh/internal/pkg/aes"
+	"github.com/fuguohong1024/go-ssh/internal/pkg/configflags"
+	"github.com/fuguohong1024/go-ssh/pkg/batchssh"
+	"github.com/fuguohong1024/go-ssh/pkg/inventory"
+	"github.com/fuguohong1024/go-ssh/pkg/log"
+	"github.com/fuguohong1024/go-ssh/pkg/util"
 )
 
 var (

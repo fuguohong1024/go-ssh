@@ -1,4 +1,4 @@
-module github.com/windvalley/gossh
+module github.com/fuguohong1024/go-ssh
 
 go 1.17
 
